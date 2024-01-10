@@ -13,7 +13,7 @@ public class ChallengeSevenIntService : IChallengeSevenIntService
             {
             reversed += numOne[i];
             };
-            return $"{reversed}";
+            return $"your number was {numOne} and reversed is {reversed}";
             }else{
             return $"Please use a number";
             }

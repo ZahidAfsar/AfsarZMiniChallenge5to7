@@ -18,7 +18,7 @@ namespace AfsarZMiniChallenge5to7.Controllers;
     }
 
      [HttpGet]
-     [Route("StringReverse")]
+     [Route("StringReverse/{wordOne}")]
 
      public string StringReverse(string wordOne)
      {

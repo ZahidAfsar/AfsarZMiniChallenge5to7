@@ -9,6 +9,6 @@ public class ChallengeSevenService : IChallengeSevenStringService
         {
         reversed += wordOne[i];
         };
-        return $"{reversed}";
+        return $"your word was {wordOne} and reversed is {reversed}";
     }
 }
