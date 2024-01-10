@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/AfsarZMiniChallenge5to7.props" />
+</Project>
