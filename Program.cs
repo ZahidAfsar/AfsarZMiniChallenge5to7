@@ -1,4 +1,5 @@
 using AfsarZMiniChallenge5to7.Services.ChallengeFive;
+using AfsarZMiniChallenge5to7.Services.ChallengeSix;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IChallengeFiveService, ChallengeFiveService>();
+builder.Services.AddScoped<IChallengeSixService, ChallengeSixService>();
 
 var app = builder.Build();
 
